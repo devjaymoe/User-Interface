@@ -73,15 +73,24 @@ h1, h2, h3, h4, h5 {
 
 /* Nav styles */
 
+nav {
+	padding-bottom: 1%;
+	background-color: #5677e6;
+}
+
 nav div {
 	display: inline-block;
-	margin-top: 3%;
+	margin-top: 2%;
 }
 
 nav a {
 	text-decoration: none;
-	color: gray;
+	color: whitesmoke;
 	margin: 0 4%;
+}
+
+nav a:hover {
+	color: #cfcdcd;
 }
 
 nav .links {
@@ -91,6 +100,14 @@ nav .links {
 nav .logo {
 	margin: 0 0 0 8%;
 }
+
+/* JS class for scrolling navbar */
+
+.fixed {
+	position: sticky;
+	top: 0;
+}
+
 
 /* Header Styles */
 
